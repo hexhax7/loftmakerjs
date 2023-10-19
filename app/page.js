@@ -35,7 +35,7 @@ export default function Home() {
    <main className={raleWay.className}>
       <motion.div className={styles.mainImage} style={{ y }} >
       <Image  
-                src="/En2aL/Loft.jpg"
+                src="/En2/Loft.jpg"
                 fill={true}
                 className="landScape"
                 style={{objectFit: "cover"}}

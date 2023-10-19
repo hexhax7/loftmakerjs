@@ -65,13 +65,7 @@ export default function Services() {
                 <h2>Steel Installation</h2>
                 <p>we excel in precision and strength. Our experienced team delivers efficient and reliable steel installations for various applications, ensuring structural integrity and safety. Whether it's for residential or commercial projects, trust us to provide robust steel solutions that meet your specific needs while adhering to industry standards.</p>
         </div>
-        <Image  
-                src="/En2aL/Loft.jpg"
-                fill={true}
-                className="landScape"
-                style={{objectFit: "cover"}}
-                alt="Picture of the author"
-                />
+       
                       
         </div>
 
