@@ -1,0 +1,86 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    
+    width: 100vw;
+    
+}
+.Container h1{
+    padding-bottom: 5%;
+    
+}
+
+.Header{
+    margin-top: 10%;
+    
+}
+.Services{
+    width: 100vw;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+   border: solid 2px;
+   border-radius: 4px;
+   background-color: rgb(215, 215, 215);
+}
+
+.ServiceImage{
+    position: relative;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    margin: 2%;
+}
+
+.ServiceText{
+    max-width: 100%;
+    padding: 5%;
+}
+
+.ServiceText p{
+    padding-top: 5%;
+}
+
+@media (orientation: portrait) and (max-width: 800px) {
+    .Services{
+        width: 95vw;
+        margin-left: 2.5vw;
+        flex-direction: column;
+       
+    }
+    .Container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+     
+        overflow: hidden;
+        margin-top: 5%;
+        
+    }
+    .ServiceImageland{
+        display: none;
+    }
+    .ServiceImage{
+        position: relative;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+        margin: 6%;
+    }
+    .ServiceText{
+        max-width: 100%;
+        padding: 5%;
+    }
+    .Container{
+     
+        margin-top: 75%;
+        
+    }
+    
+}

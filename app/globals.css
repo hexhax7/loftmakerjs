@@ -1,3 +1,4 @@
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -77,6 +78,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
+}
+h1{
+  font-size: xxx-large;
+}
+h2{
+  font-size: xx-large;
 }
 
 html,
@@ -85,15 +93,6 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
 a {
   color: inherit;
@@ -104,4 +103,145 @@ a {
   html {
     color-scheme: dark;
   }
+}
+html {
+  scroll-behavior: smooth;
+  
+}
+
+main{
+  height: 100%;
+  z-index: 0;
+  scroll-behavior: smooth;
+  
+  position: relative;
+  
+  
+}
+
+.Intro{
+  margin-left: 25% ;
+  width: 50%;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  display: block;
+  overflow: visible;
+ 
+}
+.Intro h1{
+ padding-top: 5%;
+
+}
+.Intro p{
+  padding-top: 10%;
+  font-size: larger;
+}
+
+.motionSection{
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#Footer{
+  z-index: 10;
+}
+
+.invalid-feedback,
+.empty-feedback {
+  display: none;
+}
+
+.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+  display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
+}
+
+
+.invalid-feedback,
+.empty-feedback {
+  display: none;
+}
+
+.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+  display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
+}
+
+
+.landScape{
+  display: block;
+}
+.Portrait{
+  display: none;
+}
+@media (orientation: portrait) and (max-width: 800px) {
+  .Intro{
+    margin-top: 20%;
+    margin-left: 5% ;
+    width: 90%;
+    margin-bottom: 5%;
+    
+  }
+  .landScape{
+    display: none;
+  }
+  .Portrait{
+    display: block;
+  }
+}
+
+
+
+
+
+.Gallery_FlexBox{
+  padding-top: 0%;
+  display: flex;
+  margin-left: 3%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  
+}
+.MGallery{
+  display: flex;
+  margin-left: 0%;
+  max-width: 95%;
+  margin-top: 5%;
+}
+@media (orientation: portrait) and (max-width: 800px) {.MGallery{
+  flex-direction: column;
+}}
+.Gallery_FlexBox_image{
+  margin-top: 1%;
+  margin-left: 2%;
+  
+  
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }

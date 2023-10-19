@@ -1,95 +1,85 @@
+"use client"
+import Services from './services/page';
 import Image from 'next/image'
 import styles from './page.module.css'
+import {
+  motion,
+  useScroll,
+  useTransform
+} from "framer-motion";
+import React from 'react';
+import { Raleway } from 'next/font/google'
+import { Playfair_Display } from 'next/font/google';
+import About from './About/page';
+import ImageSlider from './imageslider/index';
+import Contact from './contact/page';
 
+
+const Playfair = Playfair_Display({
+  weight: '700',
+  subsets: ['latin'],
+})
+
+const raleWay = Raleway({
+  weight: '500',
+  subsets: ['latin'],
+})
 export default function Home() {
+
+  
+  let { scrollYProgress } = useScroll();
+  const y =  useTransform(scrollYProgress, [0, 1], ["0%", "290%"]);
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+  <>
+   <main className={raleWay.className}>
+      <motion.div className={styles.mainImage} style={{ y }} >
+      <Image  
+                src="/En2aL/loft.jpg"
+                fill={true}
+                className="landScape"
+                style={{objectFit: "cover"}}
+                alt="Picture of the author"
+                />
+        <Image  
+                src="/En2aL/Bathroom-1736X981.jpg"
+                fill={true}
+                className="Portrait"
+                style={{objectFit: "contain"}}
+                alt="Picture of the author"
+                />
+      </motion.div >
+     
+    
+    <motion.div className="motionSection" >
+      <div className='item'>
+        <div className='Intro'>
+            <h1 className={Playfair.className} style={{fontSize: "xx-large"}}>Complex Problems, Innovative Solutions</h1>
+            <p> From start to finish, we ensure that your loft conversion meets your desired requirements. With a focus on exceptional service and a high-quality finish, we take pride in our workmanship. We offer a range of loft conversion options to suit any lifestyle and budget, recognizing that every home is unique. Whether you're looking for a simple conversion or a more complex project, our skilled team can bring your ideas to life. Our commitment to quality and customization guarantees a loft conversion or extension that is truly personalized for you. Contact us today to schedule a free intial consultation. </p>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      
+      <div className='item'>
+        <div id='services'> <Services/></div>
+      </div>
+      
+      <div className='item'>
+      <div className='image-slide-div'> <ImageSlider/></div>
+      </div>
+      <div className='item'>
+        <div id="About"><About/></div>
       </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className='item'>
+        <div id="Footer"><Contact/></div>
       </div>
+    </motion.div>
     </main>
+    
+  </>
+    
+    
+    
+   
   )
 }

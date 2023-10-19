@@ -1,0 +1,38 @@
+
+
+.Links{
+  list-style-type: none;
+  display: flex;
+  margin-right: 5vw;
+  
+}
+
+.Links li{
+  margin-right: 50px;
+  font-size: xx-large;
+}
+
+.Nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  height: 105px;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+}
+@media (orientation: portrait) and (max-width: 800px) {
+
+  .Links{
+    list-style-type: none;
+    display: flex;
+    margin-right: 15vw;
+    
+  }
+  
+  .Links li{
+    margin-right: 10%;
+    font-size: large;
+  }
+}
