@@ -53,25 +53,25 @@ export default function Home() {
     
     <motion.div className="motionSection" >
       <div className='item'>
-        <div className='Intro'>
+        <div className='Intro' style={{display: "block"}}>
             <h1 className={Playfair.className} style={{fontSize: "xx-large"}}>Complex Problems, Innovative Solutions</h1>
             <p> From start to finish, we ensure that your loft conversion meets your desired requirements. With a focus on exceptional service and a high-quality finish, we take pride in our workmanship. We offer a range of loft conversion options to suit any lifestyle and budget, recognizing that every home is unique. Whether you're looking for a simple conversion or a more complex project, our skilled team can bring your ideas to life. Our commitment to quality and customization guarantees a loft conversion or extension that is truly personalized for you. Contact us today to schedule a free intial consultation. </p>
         </div>
       </div>
       
       <div className='item'>
-        <div id='services'> <Services/></div>
+        <div id='services' style={{display: "block"}}> <Services/></div>
       </div>
       
       <div className='item'>
-      <div className='image-slide-div'> <ImageSlider/></div>
+      <div className='image-slide-div' style={{display: "block"}}> <ImageSlider/></div>
       </div>
       <div className='item'>
-        <div id="About"><About/></div>
+        <div id="About" style={{display: "block"}}><About/></div>
       </div>
 
       <div className='item'>
-        <div id="Footer"><Contact/></div>
+        <div id="Footer" style={{display: "block"}}><Contact/></div>
       </div>
     </motion.div>
     </main>

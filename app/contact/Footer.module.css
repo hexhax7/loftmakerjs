@@ -80,12 +80,16 @@
         text-align: center;
         
     }
+    .ContactText h2{
+       
+        font-size: x-large;
+    }
  
     .Footer{
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 80vh;
+        height: 100%;
   
         
     }

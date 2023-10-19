@@ -4,7 +4,7 @@
     justify-content: center;
     text-align: center;
     overflow: hidden;
-    
+    flex-wrap: wrap;
     width: 100vw;
     
 }
@@ -18,22 +18,26 @@
     
 }
 .Services{
-    width: 100vw;
+    width: 400px;
     margin: 2%;
     display: flex;
+    height: auto;
+    
     flex-direction: column;
-   border: solid 2px;
-   border-radius: 4px;
-   background-color: rgb(215, 215, 215);
+    border: solid 2px;
+    border-radius: 4px;
+    background-color: rgb(215, 215, 215);
+
 }
 
 .ServiceImage{
     position: relative;
-    width: 20vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     height: 45vh;
-    margin: 2%;
+    
+    
 }
 
 .ServiceText{
@@ -47,7 +51,7 @@
 
 @media (orientation: portrait) and (max-width: 800px) {
     .Services{
-        width: 95vw;
+        width: 90vw;
         margin-left: 2.5vw;
         flex-direction: column;
        
@@ -67,11 +71,13 @@
     }
     .ServiceImage{
         position: relative;
-        width: 90%;
+        max-width: 100%;
+        
         display: flex;
         flex-direction: column;
-        height: 45vh;
-        margin: 6%;
+        
+        margin: 0%;
+        
     }
     .ServiceText{
         max-width: 100%;
@@ -79,7 +85,7 @@
     }
     .Container{
      
-        margin-top: 75%;
+        margin-top: 25%;
         
     }
     

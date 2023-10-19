@@ -16,7 +16,7 @@ const Oswald1 = Oswald({
   
 export default function Services() {
     return (
-        <div className={raleWay.className}>
+        <div className={raleWay.className} style={{display: "block"}}>
             <div className={styles.Header}>
             <h1 className={Oswald1.className} style={{textAlign: "center"}}>Services</h1>
             </div>
@@ -25,7 +25,7 @@ export default function Services() {
         
         <div className={styles.Services}>
             <div className={styles.ServiceImage}>
-                <Image  src="/En2/Loft2.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
+                <Image  src="/En2/Loft2.jpg" style={{objectFit: "contain"}} blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
             </div>
             <div className={styles.ServiceText}>
                 <h2>Loft Extensions</h2>
@@ -35,7 +35,7 @@ export default function Services() {
 
         <div className={styles.Services}>
         <div className={styles.ServiceImage}>
-                <Image  src="/Gallery/61.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
+                <Image  src="/Gallery/61.jpg" style={{objectFit: "contain"}} blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
         </div> 
         <div className={styles.ServiceText}>
                 <h2>Side Extension</h2>
@@ -47,7 +47,7 @@ export default function Services() {
         <div className={styles.Services}>
             
             <div className={styles.ServiceImage}>
-                <Image  src="/Gallery/Enfiled Fibre Glass Roof.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
+                <Image  src="/Gallery/Enfiled Fibre Glass Roof.jpg"  style={{objectFit: "contain"}} blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
             </div>
             
             <div className={styles.ServiceText}>
@@ -58,7 +58,7 @@ export default function Services() {
 
         <div className={styles.Services}>
         <div className={styles.ServiceImage}>
-                <Image  src="/Gallery/74.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
+                <Image  src="/Gallery/74.jpg" blurDataURL="data:..." style={{objectFit: "contain"}} placeholder="blur" fill={true}  alt="Bathroom Photo" />
         </div>        
 
         <div className={styles.ServiceText}>
