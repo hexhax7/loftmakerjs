@@ -73,7 +73,7 @@ export default function Contact() {
           <Link href="https://www.instagram.com/loftmakerlondon/">
             <Image
               loading="lazy"
-              src="/instaLogo.webp"
+              src="/InstaLogo.webp"
               blurDataURL="data:..."
               placeholder="blur"
               width={45}
