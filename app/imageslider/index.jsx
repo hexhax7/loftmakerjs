@@ -1,6 +1,6 @@
 // pages/index.js
 import React from 'react'
-import EmblaCarousel from './EmblaCarousel'
+import EmblaCarousel from './emblaCarousel'
 
 import './css/sandbox.css'
 import './css/embla.css'
