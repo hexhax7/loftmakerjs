@@ -35,7 +35,7 @@ export default function Services() {
 
         <div className={styles.Services}>
         <div className={styles.ServiceImage}>
-                <Image  src="/gallery/61.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
+                <Image  src="/Gallery/61.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
         </div> 
         <div className={styles.ServiceText}>
                 <h2>Side Extension</h2>
@@ -59,7 +59,7 @@ export default function Services() {
 
         <div className={styles.Services}>
         <div className={styles.ServiceImage}>
-                <Image  src="/gallery/74.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
+                <Image  src="/Gallery/74.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
             </div>        
         <div className={styles.ServiceText}>
                 <h2>Steel Installation</h2>
