@@ -42,7 +42,7 @@ export default function Home() {
                 alt="Picture of the author"
                 />
         <Image  
-                src="/En2aL/Bathroom-1736X981.jpg"
+                src="/En2/Bathroom-1736X981.jpg"
                 fill={true}
                 className="Portrait"
                 style={{objectFit: "contain"}}

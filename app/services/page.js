@@ -25,7 +25,7 @@ export default function Services() {
         
         <div className={styles.Services}>
             <div className={styles.ServiceImage}>
-                <Image  src="/En2AL/Loft2.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
+                <Image  src="/En2/Loft2.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
             </div>
             <div className={styles.ServiceText}>
                 <h2>Loft Extensions</h2>
