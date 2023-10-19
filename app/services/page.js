@@ -48,7 +48,6 @@ export default function Services() {
             
             <div className={styles.ServiceImage}>
                 <Image  src="/Gallery/Enfiled Fibre Glass Roof.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
-            
             </div>
             
             <div className={styles.ServiceText}>
@@ -60,7 +59,8 @@ export default function Services() {
         <div className={styles.Services}>
         <div className={styles.ServiceImage}>
                 <Image  src="/Gallery/74.jpg" blurDataURL="data:..."  placeholder="blur" fill={true}  alt="Bathroom Photo" />
-            </div>        
+        </div>        
+
         <div className={styles.ServiceText}>
                 <h2>Steel Installation</h2>
                 <p>we excel in precision and strength. Our experienced team delivers efficient and reliable steel installations for various applications, ensuring structural integrity and safety. Whether it's for residential or commercial projects, trust us to provide robust steel solutions that meet your specific needs while adhering to industry standards.</p>
