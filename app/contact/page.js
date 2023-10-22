@@ -27,8 +27,12 @@ export default function Contact() {
   const [result, setResult] = React.useState("");
 
   return (
-
-    <div className={styles.Footer}>
+    <>
+    <header>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    </header>
+     <div className={styles.Footer}>
       
 
       <div className={styles.Contact}>
@@ -102,10 +106,12 @@ export default function Contact() {
         </p>
         <p>We are based in Muswell Hill, and we serve all of North London.</p>
         <br></br>
-        <h2 className={OpenS.className}> T:+447469434317 </h2>
-        <h2 className={OpenS.className}> E:info@lml.ltd</h2>
+        <h2 className={OpenS.className}> <span class="material-symbols-outlined">call </span> +447469434317 </h2>
+        <h2 className={OpenS.className}> <span class="material-symbols-outlined">mail</span> info@lml.ltd</h2>
       
       </div>
     </div>
+    </>
+   
   );
 }
