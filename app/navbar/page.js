@@ -12,13 +12,14 @@ export default function Navbar() {
     return (
         <div className={Oswald1.className}>
                 <nav className={styles.Nav}>
-            <Image
+                    <Link style={{margin: "1%"}} href={"/"}><Image
                 src="/3.png"
                 width={100}
                 height={100}
-                style={{marginLeft: "2%"}}
+                
                 alt="Picture of the author"
-                />
+                /></Link>
+            
             
             <ul className={styles.Links}>
                 <li>
