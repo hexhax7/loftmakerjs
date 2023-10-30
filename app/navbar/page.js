@@ -17,7 +17,7 @@ export default function Navbar() {
                 width={100}
                 height={100}
                 
-                alt="Logo"
+                alt=" Loft Makers London Ltd Logo"
                 /></Link>
             
             
