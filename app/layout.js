@@ -5,7 +5,7 @@ import Navbar from './navbar/page'
 const inter = Inter({ subsets: ['latin'] })
 import Image from 'next/image'
 import Link from 'next/link'
-
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'Loft Makers London Ltd',
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}><Navbar/>{children}</body>
+      <body className={inter.className}><Navbar/>{children}<Analytics /></body>
     </html>
   )
 }
