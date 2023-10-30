@@ -17,7 +17,7 @@ export default function Navbar() {
                 width={100}
                 height={100}
                 
-                alt="Picture of the author"
+                alt="Logo"
                 /></Link>
             
             
