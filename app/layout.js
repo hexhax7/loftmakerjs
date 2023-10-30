@@ -16,15 +16,7 @@ export default function RootLayout({ children }) {
       
       <body>
            
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DP4TSF0JWV">
-      </Script>
-      <Script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-DP4TSF0JWV');
-      </Script>
+     
         <Navbar/>
           {children}
           <Analytics />

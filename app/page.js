@@ -13,7 +13,7 @@ import { Playfair_Display } from 'next/font/google';
 import About from './About/page';
 import ImageSlider from './imageslider/index';
 import Contact from './contact/page';
-
+import Script from 'next/script';
 
 const Playfair = Playfair_Display({
   weight: '700',
@@ -33,6 +33,15 @@ export default function Home() {
   return (
   <>
    <main className={raleWay.className}>
+   <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DP4TSF0JWV">
+      </Script>
+      <Script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DP4TSF0JWV');
+      </Script>
       <motion.div className={styles.mainImage} style={{ y }} >
       <Image  
                 src="/En2/Loft.jpg"
