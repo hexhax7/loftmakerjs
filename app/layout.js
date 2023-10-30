@@ -1,10 +1,5 @@
 import './globals.css'
-
-import { Inter } from 'next/font/google'
 import Navbar from './navbar/page'
-const inter = Inter({ subsets: ['latin'] })
-import Image from 'next/image'
-import Link from 'next/link'
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
@@ -15,7 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}><Navbar/>{children}<Analytics /></body>
+      <body>
+        <Navbar/>
+          {children}
+          <Analytics />
+        </body>
     </html>
   )
 }
