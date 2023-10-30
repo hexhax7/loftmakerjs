@@ -12,7 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+   
+      
+      <body>
+           
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DP4TSF0JWV">
       </Script>
       <Script>
@@ -22,8 +25,6 @@ export default function RootLayout({ children }) {
 
         gtag('config', 'G-DP4TSF0JWV');
       </Script>
-      </Head>
-      <body>
         <Navbar/>
           {children}
           <Analytics />
