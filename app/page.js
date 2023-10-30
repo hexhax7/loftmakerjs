@@ -33,14 +33,15 @@ export default function Home() {
   return (
   <>
    <main className={raleWay.className}>
-   <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DP4TSF0JWV">
-      </Script>
-      <Script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-DP4TSF0JWV');
+   <Script src="https://www.googletagmanager.com/gtag/js?id=G-DP4TSF0JWV" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-DP4TSF0JWV');
+        `}
       </Script>
       <motion.div className={styles.mainImage} style={{ y }} >
       <Image  
