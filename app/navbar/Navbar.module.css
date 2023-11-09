@@ -1,18 +1,16 @@
-
-
-.Links{
+.Links {
   list-style-type: none;
   display: flex;
-  margin-right: 5vw;
-  
 }
-
-.Links li{
-  margin-right: 50px;
+.image {
+  padding: 5%;
+}
+.Links li {
+  margin-right: 5vw;
   font-size: xx-large;
 }
 
-.Nav{
+.Nav {
   display: flex;
   justify-content: space-between;
   background-color: grey;
@@ -23,16 +21,14 @@
   z-index: 999;
 }
 @media (orientation: portrait) and (max-width: 800px) {
-
-  .Links{
+  .Links {
     list-style-type: none;
     display: flex;
     margin-right: 15vw;
-    
   }
-  
-  .Links li{
-    margin-right: 10%;
-    font-size: large;
+
+  .Links li {
+    margin-right: 6%;
+    font-size: xx-large;
   }
 }

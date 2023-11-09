@@ -1,133 +1,125 @@
-.Footer{
-    
-    height: 60vh;   
-    display: flex;
+.Footer {
+  margin-top: 10%;
+  height: 60vh;
+  display: flex;
 }
 
-.Contact{
-    width: 50%;
-    height: 100%;
+.Contact {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.Contact h2 {
+  color: white;
+}
+
+.form {
+  width: 80%;
+  margin-left: 10%;
+  height: 90%;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin: 3% 2% 5% 2%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.inputs input {
+  height: 50px;
+  width: 35%;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.form textarea {
+  width: 70%;
+  height: 50%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.button input {
+  width: 30%;
+  height: 30px;
+  margin: 2% 15% 10% 0%;
+  border-radius: 10px;
+}
+
+.button span {
+  color: white;
+}
+
+.ContactText {
+  border: solid black 2px;
+  width: 50%;
+  height: 100%;
+  z-index: 10;
+  text-align: center;
+}
+
+.ContactText p {
+  width: 80%;
+  margin: 3% 5% 0% 10%;
+}
+
+@media (orientation: portrait) and (max-width: 800px) {
+  .Contact {
+    width: 100%;
     background-color: black;
     text-align: center;
-    
-}
+    height: 500px;
+  }
 
-.Contact h2{
-    color: white;
-}
+  .ContactText h2 {
+    font-size: x-large;
+  }
 
-.form{
-   
-    width: 80%;
-    margin-left: 10%;
-    height: 90%;
- 
-}
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+  }
 
-.inputs{
+  .ContactText {
+    border: solid black 2px;
+    width: 100%;
+    height: 350px;
+    z-index: 10;
+    text-align: center;
+  }
+
+  .inputs {
     display: flex;
     justify-content: center;
     margin: 3% 2% 5% 2%;
     height: 50px;
     display: flex;
     flex-direction: row;
-    
-}
-.inputs input{
+  }
+
+  .inputs input {
     height: 50px;
-    width: 35%;
-    margin: 1%;
-    display: flex;
-    flex-direction: row;
-}
+    width: 60%;
+  }
 
-.form textarea{
-    width: 70%;
-    height: 50%;
-    font-family:"Times New Roman", Times, serif;  
-     
-}
+  .form textarea {
+    width: 95%;
+    height: 250px;
+    font-family: "Times New Roman", Times, serif;
+  }
 
-.button input{
+  .button input {
     width: 30%;
     height: 30px;
-    margin: 2% 15%  10%  0%;
-}
-
-.button span{
-    color: white;
-}
-
-.ContactText{
-    border: solid black 2px;
-    width: 50%;
-    height: 100%;
-    z-index: 10;
-    text-align: center;
-    
-}
-
-.ContactText p {
-    width: 80%;
-    margin: 3% 5% 0% 10%;
-}
-
-@media (orientation: portrait) and (max-width: 800px) {
-    .Contact{
-        width: 100%;
-        
-        background-color: black;
-        text-align: center;
-        
-    }
-    .ContactText h2{
-       
-        font-size: x-large;
-    }
- 
-    .Footer{
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 100%;
-  
-        
-    }
-    .ContactText{
-        border: solid black 2px;
-        width: 100%;
-        height: 50%;
-        z-index: 10;
-        text-align: center;
-    }
-
-    .inputs{
-        display: flex;
-        justify-content: center;
-        margin: 3% 2% 5% 2%;
-        height: 50px;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    .inputs input{
-        height: 50px;
-        width: 60%;
-        
-       
-    }
-    
-    .form textarea{
-        width: 95%;
-        height: 50%;
-        font-family:"Times New Roman", Times, serif;  
-         
-    }
-    
-    .button input{
-        width: 30%;
-        height: 30px;
-        margin: 2% 15%  10%  0%;
-    }
-
+    margin: 2% 15% 10% 0%;
+  }
 }

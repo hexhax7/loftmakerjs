@@ -41,7 +41,8 @@ export default function Home() {
         <motion.div className={styles.mainImage} style={{ y }}>
           <Image
             src="/En2/Loft.jpg"
-            fill={true}
+            width={4000}
+            height={400}
             className="landScape"
             style={{ objectFit: "cover" }}
             alt="Picture of the author"
