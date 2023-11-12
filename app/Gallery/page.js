@@ -566,6 +566,7 @@ export default function Home({ mainHeaderText }) {
           />
         </div>
       </div>
+      <Contact />
     </>
   );
 }

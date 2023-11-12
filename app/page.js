@@ -106,7 +106,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="item"></div>
+          <div className="item" id="Footer">
+            <Contact />
+          </div>
         </motion.div>
       </main>
     </>

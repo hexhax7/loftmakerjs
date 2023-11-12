@@ -155,6 +155,7 @@ export default function LoftTypes() {
             </p>
           </div>
         </div>
+        <Contact />
       </div>
     </div>
   );

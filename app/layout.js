@@ -22,7 +22,6 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Analytics />
-        <Contact />
       </body>
     </html>
   );
