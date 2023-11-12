@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <Link href={"/Lofts"}>Loft Types</Link>
+            <Link href={"/LoftTypes"}>Loft Types</Link>
           </li>
           <li>
             <Link href={"/Gallery"}>Gallery</Link>
