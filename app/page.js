@@ -38,19 +38,10 @@ export default function Home() {
           gtag('config', 'G-DP4TSF0JWV');
         `}
         </Script>
-        <motion.div className={styles.mainImage} style={{ y }}>
-          <Image
-            src="/En2/Loft.jpg"
-            width={4000}
-            height={400}
-            className="landScape"
-            style={{ objectFit: "cover" }}
-            alt="Picture of the author"
-          />
+        <motion.div className="Portrait" style={{ y }}>
           <Image
             src="/En2/Bathroom-1736X981.jpg"
             fill={true}
-            className="Portrait"
             style={{ objectFit: "contain" }}
             alt="Picture of the author"
           />

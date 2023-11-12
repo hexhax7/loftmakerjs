@@ -75,7 +75,9 @@
   width: 80%;
   margin: 3% 5% 0% 10%;
 }
-
+.ContactText h2 {
+  margin: 2%;
+}
 @media (orientation: portrait) and (max-width: 800px) {
   .Contact {
     width: 100%;

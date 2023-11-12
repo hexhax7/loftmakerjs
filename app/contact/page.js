@@ -109,6 +109,11 @@ export default function Contact() {
           </h2>
           <h2 className={OpenS.className}>
             {" "}
+            <span className="material-symbols-outlined">call </span>{" "}
+            +447736777527{" "}
+          </h2>
+          <h2 className={OpenS.className}>
+            {" "}
             <span className="material-symbols-outlined">mail</span> info@lml.ltd
           </h2>
         </div>
