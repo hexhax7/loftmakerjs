@@ -92,7 +92,7 @@ export default function LoftTypes() {
         <div className={styles.type}>
           <Image
             loading="lazy"
-            src="/Renders/hiptogable.png"
+            src="/Renders/HipToGable.png"
             blurDataURL="data:..."
             placeholder="blur"
             width={400}
