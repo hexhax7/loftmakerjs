@@ -9,6 +9,7 @@
   width: 50%;
   height: 100%;
   background-color: black;
+  color: white;
   text-align: center;
 }
 
@@ -37,6 +38,8 @@
   padding: 2%;
   border-radius: 10px;
   display: flex;
+  background-color: white;
+  color: black;
   flex-direction: row;
 }
 
@@ -45,6 +48,8 @@
   height: 50%;
   padding: 2%;
   border-radius: 10px;
+  background-color: white;
+  color: black;
 }
 
 .button input {
