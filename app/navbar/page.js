@@ -27,10 +27,13 @@ export default function Navbar() {
             <Link href={"/"}>Home</Link>
           </li>
           <li>
+            <Link href={"/Lofts"}>Loft Types</Link>
+          </li>
+          <li>
             <Link href={"/Gallery"}>Gallery</Link>
           </li>
           <li>
-            <Link href={"/#About"}>About</Link>
+            <Link href={"/#About"}>About Us</Link>
           </li>
 
           <li>

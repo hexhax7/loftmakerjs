@@ -106,11 +106,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="item">
-            <div id="Footer" style={{ display: "block" }}>
-              <Contact />
-            </div>
-          </div>
+          <div className="item"></div>
         </motion.div>
       </main>
     </>

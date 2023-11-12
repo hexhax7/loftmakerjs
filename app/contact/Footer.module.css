@@ -2,6 +2,7 @@
   margin-top: 10%;
   height: 60vh;
   display: flex;
+  overflow: hidden;
 }
 
 .Contact {

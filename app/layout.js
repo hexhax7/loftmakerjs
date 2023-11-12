@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Contact from "./contact/page";
 import "./globals.css";
 import Navbar from "./navbar/page";
 import { Analytics } from "@vercel/analytics/react";
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Analytics />
+        <Contact />
       </body>
     </html>
   );

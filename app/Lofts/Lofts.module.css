@@ -1,0 +1,26 @@
+.main {
+  margin: 5%;
+  margin-top: 10%;
+}
+
+.type {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  justify-content: space-evenly;
+}
+
+.textmain {
+  width: 65%;
+  margin: auto;
+}
+
+.info {
+  margin: 2%;
+  width: 40%;
+}
+
+.info h3 {
+  margin-bottom: 1%;
+}
