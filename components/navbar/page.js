@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
@@ -9,6 +11,27 @@ const Oswald1 = Oswald({
 });
 
 export default function Navbar() {
+  function toggleMenu() {
+    var link = document.getElementById("linkid");
+    if (link) {
+      link.classList.toggle(styles.show);
+      console.log(
+        "Button clicked. Class toggled:",
+        link.classList.contains("show")
+      );
+    } else {
+      console.error("Element with ID 'linkid' not found.");
+    }
+  }
+
+  function hideMenu() {
+    var link = document.getElementById("linkid");
+    if (link && link.classList.contains(styles.show)) {
+      link.classList.remove(styles.show);
+      console.log("Menu hidden.");
+    }
+  }
+
   return (
     <div className={Oswald1.className}>
       <nav className={styles.Nav}>
@@ -21,23 +44,38 @@ export default function Navbar() {
             alt=" Loft Makers London Ltd Logo"
           />
         </Link>
+        <button className={styles.button} onClick={toggleMenu}>
+          <div className={styles.ham}></div>
+          <div className={styles.ham}></div>
+          <div className={styles.ham}></div>
+        </button>
 
-        <ul className={styles.Links}>
+        <ul id="linkid" className={styles.Links}>
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/"} onClick={hideMenu}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link href={"/LoftTypes"}>Loft Types</Link>
+            <Link href={"/LoftTypes"} onClick={hideMenu}>
+              Loft Types
+            </Link>
           </li>
           <li>
-            <Link href={"/Gallery"}>Gallery</Link>
+            <Link href={"/Gallery"} onClick={hideMenu}>
+              Gallery
+            </Link>
           </li>
           <li>
-            <Link href={"/#About"}>About Us</Link>
+            <Link href={"/#About"} onClick={hideMenu}>
+              About Us
+            </Link>
           </li>
 
           <li>
-            <Link href={"/#Footer"}>Contact</Link>
+            <Link href={"/#Footer"} onClick={hideMenu}>
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

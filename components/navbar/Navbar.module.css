@@ -9,38 +9,61 @@
   margin-right: 5vw;
   font-size: xx-large;
 }
-
+.button {
+  display: none;
+}
+.ham:first-child {
+  margin-top: 10%;
+}
+.ham {
+  border-top: 2px solid black;
+  margin-top: 25%;
+}
 .Nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: grey;
   height: 105px;
   align-items: center;
   position: fixed;
   width: 100vw;
   z-index: 999;
+  white-space: nowrap;
 }
-@media (orientation: portrait) and (max-width: 800px) {
-  .Links {
-    list-style-type: none;
+@media (max-width: 800px) {
+  .Nav {
     display: flex;
-    margin-right: 15vw;
+    justify-content: space-between;
   }
-  .image {
+  .button {
+    display: block;
+    background-color: #999;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
     padding: 1%;
-    min-width: 50px;
+    border: 0.5px rgb(130, 128, 128) solid;
+    margin: 5%;
+  }
+  .Links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100px; /* Adjust the top position based on your design */
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    z-index: 1000;
+  }
+
+  .Links.show {
+    display: flex;
   }
 
   .Links li {
-    padding: 2%;
-    margin: 0%;
-    font-size: large;
-    white-space: nowrap;
-    border-right: 1px solid black;
-  }
-}
-@media (orientation: portrait) and (max-width: 400px) {
-  .image {
-    display: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
   }
 }
