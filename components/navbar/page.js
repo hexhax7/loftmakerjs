@@ -11,7 +11,10 @@ const Oswald1 = Oswald({
 });
 
 export default function Navbar() {
-  function toggleMenu() {
+  function toggleMenu(event) {
+    // Stop propagation to prevent the document click event from triggering
+    event.stopPropagation();
+
     var link = document.getElementById("linkid");
     if (link) {
       link.classList.toggle(styles.show);
@@ -44,6 +47,7 @@ export default function Navbar() {
             alt=" Loft Makers London Ltd Logo"
           />
         </Link>
+
         <button className={styles.button} onClick={toggleMenu}>
           <div className={styles.ham}></div>
           <div className={styles.ham}></div>
