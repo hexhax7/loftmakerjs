@@ -6,11 +6,12 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import React from "react";
 import { Raleway } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
-import About from "./About/page";
-import ImageSlider from "./imageslider/index";
-import Contact from "./contact/page";
+import About from "../components/About/page";
+import ImageSlider from "../components/imageslider/index";
+import Contact from "../components/contact/page";
 import Script from "next/script";
 import Reviews from "../components/reviews/page";
+import Head from "next/head";
 
 const Playfair = Playfair_Display({
   weight: "700",
@@ -42,6 +43,7 @@ export default function Home() {
           <Image
             src="/En2/Bathroom-1736X981.jpg"
             fill={true}
+            className="Portrait"
             style={{ objectFit: "contain" }}
             alt="Picture of the author"
           />

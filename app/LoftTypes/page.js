@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./Lofts.module.css";
-import Contact from "../contact/page";
+import Contact from "../../components/contact/page";
 import { Raleway } from "next/font/google";
 import { Oswald } from "next/font/google";
 
@@ -16,6 +16,13 @@ const raleWay = Raleway({
 export default function LoftTypes() {
   return (
     <div className={raleWay.className}>
+      <Head>
+        <link
+          rel="canonical"
+          href={"https://loftmaker.co.uk/LoftTypes"}
+          key="canonical"
+        />
+      </Head>
       <div className={styles.main}>
         <p className={styles.textmain}>
           Loft Makers London specializes in various loft conversion styles,

@@ -1,6 +1,6 @@
 "use client";
 
-import Contact from "../contact/page";
+import Contact from "../../components/contact/page";
 import Head from "next/head";
 import React from "react";
 import { Inter } from "next/font/google";
@@ -148,6 +148,13 @@ export default function Home({ mainHeaderText }) {
 
   return (
     <>
+      <Head>
+        <link
+          rel="canonical"
+          href={"https://loftmaker.co.uk/Gallery"}
+          key="canonical"
+        />
+      </Head>
       <div className="MGallery">
         <div className="Gallery_FlexBox">
           <Image
