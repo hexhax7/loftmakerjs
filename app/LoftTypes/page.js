@@ -3,7 +3,7 @@ import styles from "./Lofts.module.css";
 import Contact from "../../components/contact/page";
 import { Raleway } from "next/font/google";
 import { Oswald } from "next/font/google";
-
+import Head from "next/head";
 const Oswald1 = Oswald({
   weight: "400",
   subsets: ["latin"],

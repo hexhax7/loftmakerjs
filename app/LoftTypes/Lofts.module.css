@@ -27,7 +27,7 @@
 
 @media (orientation: portrait) and (max-width: 800px) {
   .main {
-    margin: 5%;
+    margin: auto;
     width: 100%;
     margin-top: 30%;
   }
