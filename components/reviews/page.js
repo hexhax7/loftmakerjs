@@ -6,7 +6,7 @@ import { Raleway } from "next/font/google";
 import { Oswald } from "next/font/google";
 
 const Oswald1 = Oswald({
-  weight: "400",
+  weight: "300",
   subsets: ["latin"],
 });
 const raleWay = Raleway({

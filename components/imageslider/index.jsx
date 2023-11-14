@@ -1,7 +1,12 @@
 // pages/index.js
 import React from 'react'
 import EmblaCarousel from './emblaCarousel'
+import { Oswald } from "next/font/google";
 
+const Oswald1 = Oswald({
+  weight: "400",
+  subsets: ["latin"],
+});
 import './css/sandbox.css'
 import './css/embla.css'
 
@@ -12,7 +17,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 const Home = () => (
   <main className="sandbox">
     <section className="sandbox__carousel">
-      <h2> Current project En2 </h2>
+      <h2 className={Oswald1.className}> Current project EN 2 </h2>
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>
   </main>

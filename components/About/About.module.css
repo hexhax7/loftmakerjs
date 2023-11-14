@@ -1,72 +1,62 @@
-.Container{
-    height: 80vh;
-   
-    display: flex;
-    margin-bottom: 10%;
+.Container {
+  height: 80vh;
+
+  display: flex;
+  margin-bottom: 10%;
 }
-.AboutText{
-    padding-top: 13%;
-    width: 50%;
-    text-align: center;
-    margin-left: 5%;
+.AboutText {
+  padding-top: 13%;
+  width: 50%;
+  text-align: center;
+  margin-left: 5%;
 }
-.AboutText h1{
-    padding-bottom: 2%;
-    
+.AboutText h1 {
+  padding-bottom: 2%;
 }
-.AboutText p{
-    padding: 1%;
-    width: 80%;
-    margin-left: 10%;
+.AboutText p {
+  padding: 1%;
+  width: 80%;
+  margin-left: 10%;
 }
 
-.AboutList{
-    width: 50%;
-    margin: 4%;
+.AboutList {
+  width: 50%;
+  margin: 4%;
 }
-.AboutList p{
-    
-    
-    margin: 2%;
+.AboutList p {
+  margin: 2%;
 }
 
-.AboutList:first-child{
-    margin: 15%;
-    
+.AboutList:first-child {
+  margin: 15%;
 }
-.Item{
-    display: flex;
-    margin: 8% 5% 5% 5%;
-    
+.Item {
+  display: flex;
+  margin: 8% 5% 5% 5%;
 }
-.Item h2{
-    margin-left: 1%;
-    margin-bottom:2%;
-    
+.Item h2 {
+  margin-left: 1%;
+  margin-bottom: 2%;
 }
 @media (orientation: portrait) and (max-width: 800px) {
-    .Container{
-       
-       height: 10%;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 10%;
-    }
-    .AboutText{
-        padding-top: 10%;
-        width: 95%;
-        text-align: center;
-        margin-left: 2.5%;
-    }
-    .AboutList{
-        width: 90%;
-        margin: 4%;
-        
-        
-    }   
-    .Item{
-        display: flex;
-        margin: 10% 0% 0% 0%;
-        
-    }
+  .Container {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+  .AboutText {
+    padding-top: 10%;
+    width: 95%;
+    text-align: center;
+    margin-left: 2.5%;
+  }
+  .AboutList {
+    width: 90%;
+    margin: 4%;
+  }
+  .Item {
+    display: flex;
+    margin: 10% 0% 0% 0%;
+  }
 }
