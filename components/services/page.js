@@ -12,6 +12,7 @@ const Oswald1 = Oswald({
 const raleWay = Raleway({
   weight: "500",
   subsets: ["latin"],
+  variable: "--font-raleWay",
 });
 
 export default function Services() {
@@ -36,7 +37,7 @@ export default function Services() {
             />
           </div>
           <div className={styles.ServiceText}>
-            <h2>Loft Extensions</h2>
+            <h2 className={Oswald1.className}>Loft Extensions</h2>
             <p>
               {" "}
               we specialize in transforming attic spaces into functional living
@@ -60,7 +61,7 @@ export default function Services() {
             />
           </div>
           <div className={styles.ServiceText}>
-            <h2>Side Extension</h2>
+            <h2 className={Oswald1.className}>Side Extension</h2>
             <p>
               Our side extension services are designed to maximize your living
               space while seamlessly blending with your existing home. With a
@@ -85,7 +86,7 @@ export default function Services() {
           </div>
 
           <div className={styles.ServiceText}>
-            <h2>GRP flat roof installation</h2>
+            <h2 className={Oswald1.className}>GRP flat roof installation</h2>
             <p>
               Our GRP roofing solutions offer superior protection and durability
               for your property. With expert installation and top-quality
@@ -110,7 +111,8 @@ export default function Services() {
           </div>
 
           <div className={styles.ServiceText}>
-            <h2>Steel Installation</h2>
+            <h2 className={Oswald1.className}>Steel Installation</h2>
+
             <p>
               we excel in precision and strength. Our experienced team delivers
               efficient and reliable steel installations for various

@@ -38,6 +38,10 @@
   max-width: 100%;
   padding: 5%;
 }
+.ServiceText h2 {
+  white-space: nowrap;
+  font-family: var(--font-raleWay);
+}
 
 .ServiceText p {
   padding-top: 5%;
