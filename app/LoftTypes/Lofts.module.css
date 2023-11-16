@@ -1,8 +1,11 @@
 .main {
-  margin: 5%;
-  margin-top: 10%;
+  background-color: gray;
+  padding: 1%;
 }
-
+.content {
+  background-color: white;
+  padding-top: 5%;
+}
 .type {
   display: flex;
   width: 80%;

@@ -17,9 +17,15 @@ const raleWay = Raleway({
 
 export default function Services() {
   return (
-    <div className={raleWay.className} style={{ display: "block" }}>
+    <div
+      className={raleWay.className}
+      style={{ display: "block", marginBottom: "5%" }}
+    >
       <div className={styles.Header}>
-        <h1 className={Oswald1.className} style={{ textAlign: "center" }}>
+        <h1
+          className={Oswald1.className}
+          style={{ textAlign: "center", margin: "5%" }}
+        >
           Services
         </h1>
       </div>

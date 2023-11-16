@@ -38,12 +38,15 @@ export default function Navbar() {
   return (
     <div className={Oswald1.className}>
       <nav className={styles.Nav}>
+        <Link className={styles.contact} href={"/#Footer"} onClick={hideMenu}>
+          REQUEST A FREE QUOTE
+        </Link>
         <Link className={styles.image} href={"/"}>
           <Image
             priority={true}
             src="/3.png"
-            width={100}
-            height={100}
+            width={50}
+            height={50}
             alt=" Loft Makers London Ltd Logo"
           />
         </Link>
@@ -73,12 +76,6 @@ export default function Navbar() {
           <li>
             <Link href={"/#About"} onClick={hideMenu}>
               About Us
-            </Link>
-          </li>
-
-          <li>
-            <Link href={"/#Footer"} onClick={hideMenu}>
-              Contact
             </Link>
           </li>
         </ul>

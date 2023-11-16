@@ -5,7 +5,7 @@
   text-align: center;
   overflow: hidden;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
 }
 .Container h1 {
   padding-bottom: 5%;
@@ -18,7 +18,7 @@
   width: 400px;
   margin: auto;
   display: flex;
-  height: auto;
+  height: 70vh;
 
   flex-direction: column;
   border: solid 2px;
@@ -39,7 +39,6 @@
   padding: 5%;
 }
 .ServiceText h2 {
-  white-space: nowrap;
   font-family: var(--font-raleWay);
 }
 

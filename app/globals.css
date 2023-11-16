@@ -30,10 +30,14 @@ main {
   height: 100%;
   z-index: 0;
   scroll-behavior: smooth;
-
+  background-color: gray;
   position: relative;
 }
 
+.Content {
+  padding: 1%;
+  padding-top: 0%;
+}
 .Intro {
   padding-top: 10%;
   margin-left: 25%;
