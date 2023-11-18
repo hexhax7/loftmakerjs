@@ -18,7 +18,7 @@ export default function Reviews() {
   return (
     <div className={raleWay.className}>
       <div className={style.reviews}>
-        <h1 className={Oswald1.className}>Testimonials</h1>
+        <h2 className={Oswald1.className}>Testimonials</h2>
         <div className={style.testimonials}>
           <div className={style.card}>
             <h3>John</h3>

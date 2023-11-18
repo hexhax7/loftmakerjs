@@ -4,7 +4,12 @@ import Image from "next/image";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { Oswald } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 
+const OpenS = Open_Sans({
+  weight: "500",
+  subsets: ["latin"],
+});
 const Oswald1 = Oswald({
   weight: "400",
   subsets: ["latin"],
@@ -40,15 +45,6 @@ export default function Navbar() {
       <nav className={styles.Nav}>
         <Link className={styles.contact} href={"/#Footer"} onClick={hideMenu}>
           REQUEST A FREE QUOTE
-        </Link>
-        <Link className={styles.image} href={"/"}>
-          <Image
-            priority={true}
-            src="/3.png"
-            width={50}
-            height={50}
-            alt=" Loft Makers London Ltd Logo"
-          />
         </Link>
 
         <button className={styles.button} onClick={toggleMenu}>

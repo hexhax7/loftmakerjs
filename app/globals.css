@@ -26,17 +26,13 @@ html {
   scroll-behavior: smooth;
 }
 
-main {
-  height: 100%;
-  z-index: 0;
-  scroll-behavior: smooth;
-  background-color: gray;
-  position: relative;
-}
-
-.Content {
+.main {
+  background-color: rgb(165, 165, 165);
   padding: 1%;
+}
+.content {
   padding-top: 0%;
+  background-color: white;
 }
 .Intro {
   padding-top: 10%;
@@ -55,15 +51,6 @@ main {
 .Intro p {
   padding-top: 10%;
   font-size: larger;
-}
-
-.motionSection {
-  position: relative;
-  z-index: 10;
-  background-color: white;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
 }
 
 #Footer {

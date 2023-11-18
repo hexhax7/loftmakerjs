@@ -105,16 +105,17 @@ export default function Contact() {
           <h2 className={OpenS.className}>
             {" "}
             <span className="material-symbols-outlined">call </span>{" "}
-            +447469434317{" "}
+            <Link href="tel:+447469434317"> +447469434317</Link>
           </h2>
           <h2 className={OpenS.className}>
             {" "}
             <span className="material-symbols-outlined">call </span>{" "}
-            +447736777527{" "}
+            <Link href="tel:+447736777527">+447736777527</Link>
           </h2>
           <h2 className={OpenS.className}>
             {" "}
-            <span className="material-symbols-outlined">mail</span> info@lml.ltd
+            <span className="material-symbols-outlined">mail</span>{" "}
+            <a href="mailto:info@lml.ltd">info@lml.ltd</a>
           </h2>
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function About() {
     <div className={raleWay.className}>
       <div className={styles.Container}>
         <div className={styles.AboutText}>
-          <h1 className={Oswald1.className}>About us</h1>
+          <h2 className={Oswald1.className}>About us</h2>
           <p>
             With over 20 years of experience transforming homes in london , Our
             team is committed to delivering exceptional renovations and

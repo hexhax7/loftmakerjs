@@ -5,6 +5,7 @@ import Navbar from "../components/navbar/page";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 import { Raleway } from "next/font/google";
+import Contactbutton from "@/components/Contactbutton/page";
 
 <Head></Head>;
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={raleWay.className}>
         <Navbar />
+        <Contactbutton />
         {children}
         <Analytics />
       </body>

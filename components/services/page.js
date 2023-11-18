@@ -22,12 +22,12 @@ export default function Services() {
       style={{ display: "block", marginBottom: "5%" }}
     >
       <div className={styles.Header}>
-        <h1
+        <h2
           className={Oswald1.className}
           style={{ textAlign: "center", margin: "5%" }}
         >
           Services
-        </h1>
+        </h2>
       </div>
 
       <div className={styles.Container}>

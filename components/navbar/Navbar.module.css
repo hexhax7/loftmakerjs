@@ -3,12 +3,12 @@
   display: flex;
 }
 .image {
-  margin-left: 15%;
+  margin-left: 80%;
 }
 .Links li {
   margin-right: 5vw;
   font-size: x-large;
-  background-color: gray;
+  background-color: rgb(165, 165, 165);
 }
 .button {
   display: none;
@@ -18,6 +18,31 @@
   margin: 5%;
   border: solid black 2px;
   padding: 0.5%;
+}
+.infocontact {
+  background-color: red;
+
+  border: solid 2px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.infocontact1 {
+  position: relative;
+  padding-top: 20%;
+  left: 80%;
+}
+.infocontact.showbutton {
+  background-color: blue;
+}
+.buttoncontact {
+  width: 20%;
+}
+.loft {
+  -webkit-text-stroke: 0.5px black;
+  color: #fe5000;
+  font-size: xx-large;
+  margin-left: 15%;
 }
 .ham:first-child {
   margin-top: 10%;
@@ -29,7 +54,7 @@
 .Nav {
   display: flex;
   justify-content: space-between;
-  background-color: gray;
+  background-color: rgb(165, 165, 165);
   width: 99%;
   height: 7vh;
   align-items: center;
@@ -38,6 +63,7 @@
   margin-left: 0.5%;
   white-space: nowrap;
 }
+
 @media (max-width: 800px) {
   .Nav {
     display: flex;

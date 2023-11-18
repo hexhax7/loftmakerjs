@@ -1,0 +1,86 @@
+.image {
+  position: fixed;
+  width: max-content;
+  height: 75px;
+
+  border: 0px solid black;
+}
+
+.nav {
+  position: absolute;
+  right: 1vw;
+  top: -25vh;
+}
+
+.main {
+  margin-left: 90%;
+  top: 85vh;
+  position: fixed;
+  z-index: 100;
+}
+.button {
+  display: none;
+}
+
+.contact {
+  margin: 5%;
+  border: solid black 2px;
+  padding: 0.5%;
+}
+.infocontact {
+  border: solid 2px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  background-color: darkgray;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: max-content;
+  text-align: center;
+  font-size: larger;
+}
+.infocontact1 h2 {
+  text-align: center;
+  padding: 2%;
+  white-space: nowrap;
+}
+.infocontact.showbutton {
+  opacity: 1;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+.buttoncontact {
+  width: 20%;
+  height: 20%;
+}
+
+@media (orientation: portrait) and (max-width: 800px) {
+  .main {
+    margin-left: 80%;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 600px) {
+  .main {
+    margin-left: 65%;
+  }
+  .nav {
+    position: absolute;
+    left: -60vw;
+    top: -30vh;
+    width: 60vw;
+  }
+  .infocontact {
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    background-color: darkgray;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90vw;
+    text-align: center;
+    font-size: larger;
+  }
+}
