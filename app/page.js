@@ -8,9 +8,11 @@ import { Playfair_Display } from "next/font/google";
 import About from "../components/About/page";
 import ImageSlider from "../components/imageslider/index";
 import Contact from "../components/contact/page";
+import ContactForm from "../components/Contactform/page";
 import Script from "next/script";
 import Reviews from "../components/reviews/page";
 import Head from "next/head";
+import Footer from "../components/Footer/page";
 
 const Playfair = Playfair_Display({
   weight: "700",
@@ -95,7 +97,8 @@ export default function Home() {
           </div>
 
           <div className="item" id="Footer">
-            <Contact />
+            <ContactForm />
+            <Footer />
           </div>
         </div>
       </div>
