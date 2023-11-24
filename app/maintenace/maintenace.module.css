@@ -1,0 +1,57 @@
+.main {
+  background-color: rgb(165, 165, 165);
+  padding: 1%;
+}
+.content h1 {
+  text-align: center;
+}
+
+.content {
+  padding-top: 5%;
+  background-color: white;
+}
+
+.content ul {
+  list-style-type: none;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.what {
+  position: fixed;
+  border-right: 2px solid gray;
+  margin-left: 15%;
+  padding-right: 8%;
+  height: max-content;
+}
+
+.what ul {
+  margin: 1%;
+  font-size: 2vw;
+  width: 25vw;
+}
+
+.what span {
+  padding-right: 5%;
+}
+.what li {
+  margin: 5%;
+  margin-left: 15%;
+}
+.prices {
+  margin-left: 50%;
+  width: 50vw;
+}
+.prices div {
+  padding: 10%;
+}
+.prices p {
+  padding: 2%;
+}
+
+.prices ul {
+  padding: 2%;
+}

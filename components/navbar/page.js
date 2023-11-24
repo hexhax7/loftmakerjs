@@ -65,6 +65,16 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link href={"/maintenace"} onClick={hideMenu}>
+              Maintenace
+            </Link>
+          </li>
+          <li>
+            <Link href={"/#Footer"} onClick={hideMenu}>
+              Contact
+            </Link>
+          </li>
+          <li>
             <Link href={"/Gallery"} onClick={hideMenu}>
               Gallery
             </Link>
