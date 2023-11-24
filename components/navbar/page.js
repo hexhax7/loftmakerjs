@@ -65,8 +65,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href={"/maintenace"} onClick={hideMenu}>
-              Maintenace
+            <Link href={"/maintenance"} onClick={hideMenu}>
+              Maintenance
             </Link>
           </li>
           <li>

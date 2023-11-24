@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./maintenace.module.css";
+import styles from "./maintenance.module.css";
 import Contact from "../../components/contact/page";
 import { Raleway } from "next/font/google";
 import { Oswald } from "next/font/google";
@@ -14,13 +14,13 @@ const raleWay = Raleway({
   subsets: ["latin"],
 });
 
-export default function maintenace() {
+export default function maintenance() {
   return (
     <div className={raleWay.className}>
       <Head>
         <link
           rel="canonical"
-          href={"https://loftmaker.co.uk/maintenace"}
+          href={"https://loftmaker.co.uk/maintenance"}
           key="canonical"
         />
       </Head>
@@ -35,41 +35,41 @@ export default function maintenace() {
           <h1 className={raleWay.className}>Maintenace</h1>
           <div className={styles.flex}>
             <div className={styles.what}>
-              <ul id="linkid" className={styles.Links}>
+              <ul>
                 <li>
-                  <Link href={"/maintenace#plumbing"}>
+                  <Link href={"/maintenance#plumbing"}>
                     <span class="material-symbols-outlined">plumbing</span>{" "}
                     Plumbing
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/maintenace#Electrical"}>
+                  <Link href={"/maintenance#Electrical"}>
                     <span class="material-symbols-outlined">bolt</span>{" "}
                     Electrical
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/maintenace#handyman"}>
+                  <Link href={"/maintenance#handyman"}>
                     <span class="material-symbols-outlined">handyman</span>{" "}
                     Handyman
                   </Link>
                 </li>
 
                 <li>
-                  <Link href={"/maintenace#carpenter"}>
+                  <Link href={"/maintenance#carpenter"}>
                     <span class="material-symbols-outlined">carpenter</span>{" "}
                     carpentry
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/maintenace#tiler"}>
+                  <Link href={"/maintenance#tiler"}>
                     <span class="material-symbols-outlined">grid_view</span>{" "}
                     Tiling
                   </Link>
                 </li>
 
                 <li>
-                  <Link href={"/maintenace#roofing"}>
+                  <Link href={"/maintenance#roofing"}>
                     <span class="material-symbols-outlined">roofing</span>{" "}
                     Roofing
                   </Link>
@@ -228,7 +228,7 @@ export default function maintenace() {
                 </ul>
               </div>
               <div id="tiler">
-                <h2>TILING SERVICES</h2>
+                <h3>TILING SERVICES</h3>
                 <p>
                   Precision is key in executing tiling tasks to a high standard.
                   Tiling is a crucial trade that demands skill and expertise,
@@ -246,7 +246,7 @@ export default function maintenace() {
                 </ul>
               </div>
               <div id="roofing">
-                <h2>ROOFING SERVICES</h2>
+                <h3>ROOFING SERVICES</h3>
                 <p>
                   Loftmaker London has accredited roofers ready to perform
                   expert diagnostics and repairs. Whether you need emergency
