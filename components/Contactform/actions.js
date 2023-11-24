@@ -11,6 +11,7 @@ export async function myAction(data) {
   formData.append("access_key", web3);
   formData.append("Project type", data.projectType);
   formData.append("name", data.name);
+  formData.append("Phone number", data.Phone_number);
   formData.append("email", data.email);
   formData.append("message", data.message);
 
