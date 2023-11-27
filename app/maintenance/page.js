@@ -13,17 +13,17 @@ const raleWay = Raleway({
   weight: "500",
   subsets: ["latin"],
 });
+export const metadata = {
+  title: "Loft Makers London Ltd",
+  description: "Loft Makers London Ltd",
+  alternates: {
+    canonical: "https://loftmaker.co.uk/maintenance",
+  },
+};
 
 export default function maintenance() {
   return (
     <div className={raleWay.className}>
-      <Head>
-        <link
-          rel="canonical"
-          href={"https://loftmaker.co.uk/maintenance"}
-          key="canonical"
-        />
-      </Head>
       <header>
         <link
           rel="stylesheet"

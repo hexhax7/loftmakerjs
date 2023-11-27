@@ -5,7 +5,7 @@ import Head from "next/head";
 import React from "react";
 import { Inter } from "next/font/google";
 import Image from "next/image";
-
+import { NextSeo } from "next-seo";
 import { useState, useEffect } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -148,13 +148,11 @@ export default function Home({ mainHeaderText }) {
 
   return (
     <>
-      <Head>
-        <link
-          rel="canonical"
-          href={"https://loftmaker.co.uk/Gallery"}
-          key="canonical"
-        />
-      </Head>
+      <NextSeo
+        title="Your Page Title"
+        description="Your Page Description"
+        canonical={`https://loftmaker.co.uk/Gallery`}
+      />
       <div className="MGallery">
         <div className="Gallery_FlexBox">
           <Image

@@ -12,17 +12,16 @@ const raleWay = Raleway({
   weight: "500",
   subsets: ["latin"],
 });
-
+export const metadata = {
+  title: "Loft Makers London Ltd",
+  description: "Loft conversions and side extentsions muswell",
+  alternates: {
+    canonical: "https://loftmaker.co.uk/LoftTypes",
+  },
+};
 export default function LoftTypes() {
   return (
     <div className={raleWay.className}>
-      <Head>
-        <link
-          rel="canonical"
-          href={"https://loftmaker.co.uk/LoftTypes"}
-          key="canonical"
-        />
-      </Head>
       <div className={styles.main}>
         <div className={styles.content}>
           <p className={styles.textmain}>

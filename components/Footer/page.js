@@ -60,6 +60,9 @@ export default function Contactform() {
                 {" "}
                 <a href="mailto:info@lml.ltd">info@lml.ltd</a>
               </h4>
+              <h4 className={OpenS.className}>
+                <a href="/">Loft Maker London Ltd</a>
+              </h4>
             </div>
           </div>
         </div>

@@ -16,6 +16,9 @@ const raleWay = Raleway({
 export const metadata = {
   title: "Loft Makers London Ltd",
   description: "Loft Makers London Ltd",
+  alternates: {
+    canonical: `https://loftmaker.co.uk/%s`,
+  },
 };
 
 export default function RootLayout({ children }) {
