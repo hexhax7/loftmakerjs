@@ -14,10 +14,12 @@ const raleWay = Raleway({
   subsets: ["latin"],
 });
 export const metadata = {
-  title: "Loft Makers London Ltd",
-  description: "Loft Makers London Ltd",
+  title:
+    "Loft Makers London Ltd Loft conversion and side extension specialists.",
+  description:
+    "Loft Makers London Ltd Loft conversion and side extension specialists. Based in Muswell Hill and serve all of north London",
   alternates: {
-    canonical: `https://loftmaker.co.uk/%s`,
+    canonical: `https://loftmaker.co.uk/`,
   },
 };
 

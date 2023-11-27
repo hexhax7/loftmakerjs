@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-https://loftmaker.co.uk/sitemap.xml
+Disallow:
