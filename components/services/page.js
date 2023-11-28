@@ -39,11 +39,11 @@ export default function Services() {
               blurDataURL="data:..."
               placeholder="blur"
               fill={true}
-              alt="Bathroom Photo"
+              alt="Loft Conversions"
             />
           </div>
           <div className={styles.ServiceText}>
-            <h2 className={Oswald1.className}>Loft Extensions</h2>
+            <h2 className={Oswald1.className}>Loft Conversions</h2>
             <p>
               {" "}
               we specialize in transforming attic spaces into functional living
@@ -63,7 +63,7 @@ export default function Services() {
               blurDataURL="data:..."
               placeholder="blur"
               fill={true}
-              alt="Bathroom Photo"
+              alt="Side Extension"
             />
           </div>
           <div className={styles.ServiceText}>
@@ -87,7 +87,7 @@ export default function Services() {
               blurDataURL="data:..."
               placeholder="blur"
               fill={true}
-              alt="Bathroom Photo"
+              alt="GRP flat roof installation"
             />
           </div>
 
@@ -112,7 +112,7 @@ export default function Services() {
               style={{ objectFit: "contain" }}
               placeholder="blur"
               fill={true}
-              alt="Bathroom Photo"
+              alt="Steel Installation"
             />
           </div>
 

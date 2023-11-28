@@ -149,9 +149,18 @@ export default function Home({ mainHeaderText }) {
   return (
     <>
       <NextSeo
-        title="Your Page Title"
-        description="Your Page Description"
-        canonical={`https://loftmaker.co.uk/Gallery`}
+        title="Loft Makers portfolio"
+        description="Loft Makers London Ltd Loft conversion and side 
+        extension specialists. Based in Muswell Hill and serve all of north London"
+        canonical="https://loftmaker.co.uk/Gallery"
+        openGraph={{
+          url: "https://loftmaker.co.uk/Gallery",
+          title: "Loft Maker London Ltd",
+          description:
+            "Loft Makers London Ltd Loft conversion and side extension specialists. Based in Muswell Hill and serve all of north London",
+
+          siteName: "Loft Maker London Ltd",
+        }}
       />
       <div className="MGallery">
         <div className="Gallery_FlexBox">
