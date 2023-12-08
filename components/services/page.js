@@ -1,8 +1,7 @@
 import Image from "next/image";
 import styles from "./Service.module.css";
-import Link from "next/link";
-import { Raleway } from "next/font/google";
-import { Oswald } from "next/font/google";
+
+import { Raleway, Oswald } from "next/font/google";
 
 const Oswald1 = Oswald({
   weight: "400",

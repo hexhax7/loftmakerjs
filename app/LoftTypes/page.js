@@ -33,7 +33,7 @@ export default function LoftTypes() {
           <div className={styles.type}>
             <Image
               loading="lazy"
-              src="/Renders/dormerloft.png"
+              src="/Renders/Dormer.png"
               blurDataURL="data:..."
               placeholder="blur"
               width={400}
@@ -57,7 +57,7 @@ export default function LoftTypes() {
           <div className={styles.type}>
             <Image
               loading="lazy"
-              src="/Renders/L-Shape-Dormer.png"
+              src="/Renders/L-ShapeDormer.png"
               blurDataURL="data:..."
               placeholder="blur"
               width={400}
@@ -122,7 +122,7 @@ export default function LoftTypes() {
           <div className={styles.type}>
             <Image
               loading="lazy"
-              src="/Renders/Mansard2.png"
+              src="/Renders/Mansard.png"
               blurDataURL="data:..."
               placeholder="blur"
               width={400}
@@ -144,7 +144,7 @@ export default function LoftTypes() {
           <div className={styles.type}>
             <Image
               loading="lazy"
-              src="/Renders/Velux2.png"
+              src="/Renders/Velux.png"
               blurDataURL="data:..."
               placeholder="blur"
               width={400}

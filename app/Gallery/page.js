@@ -1,15 +1,14 @@
 "use client";
 
 import Contact from "../../components/contact/page";
-import Head from "next/head";
-import React from "react";
+
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import { NextSeo } from "next-seo";
-import { useState, useEffect } from "react";
+import { React, useState, useEffect } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home({ mainHeaderText }) {
+export default function Home() {
   const [enlargedImage, setEnlargedImage] = useState(null);
   const [enableFunctionality, setEnableFunctionality] = useState(true);
 
