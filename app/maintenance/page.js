@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./maintenance.module.css";
 import Contact from "../../components/contact/page";
+import Footer from "../../components/Footer/page";
 import { Raleway } from "next/font/google";
 import { Oswald } from "next/font/google";
 import Head from "next/head";
@@ -286,6 +287,7 @@ export default function maintenance() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );

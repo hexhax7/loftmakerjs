@@ -70,8 +70,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href={"/#Footer"} onClick={hideMenu}>
-              Contact
+            <Link href={"/#About"} onClick={hideMenu}>
+              About Us
             </Link>
           </li>
           <li>
@@ -79,9 +79,10 @@ export default function Navbar() {
               Gallery
             </Link>
           </li>
+
           <li>
-            <Link href={"/#About"} onClick={hideMenu}>
-              About Us
+            <Link href={"/#Footer"} onClick={hideMenu}>
+              Contact
             </Link>
           </li>
         </ul>

@@ -126,7 +126,7 @@ html {
 .Gallery_FlexBox {
   padding-top: 0%;
   display: flex;
-  margin-left: 3%;
+  margin-left: 5%;
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 90vw;

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Lofts.module.css";
 import Contact from "../../components/contact/page";
+import Footer from "../../components/Footer/page";
 import { Raleway } from "next/font/google";
 import { Oswald } from "next/font/google";
 import Head from "next/head";
@@ -163,8 +164,8 @@ export default function LoftTypes() {
               </p>
             </div>
           </div>
-          <Contact />
         </div>
+        <Footer />
       </div>
     </div>
   );
