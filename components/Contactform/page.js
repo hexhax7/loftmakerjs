@@ -6,9 +6,14 @@ import Link from "next/link";
 import styles from "./Footer.module.css";
 import Image from "next/image";
 import { myAction } from "./actions";
-import { Open_Sans } from "next/font/google";
+import { Open_Sans , Raleway } from "next/font/google";
 
 const OpenS = Open_Sans({
+  weight: "500",
+  subsets: ["latin"],
+});
+
+const raleWay = Raleway({
   weight: "500",
   subsets: ["latin"],
 });
@@ -34,7 +39,7 @@ export default function Contactform() {
       <div>
         <div className={styles.Footer}>
           <div className={styles.Contact}>
-            <h2>Contact Us</h2>
+            <h2 className={raleWay.className}>Contact Us</h2>
             <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
               <div className={styles.inputs}>
                 <p className={styles.name}>

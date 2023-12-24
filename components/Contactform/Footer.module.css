@@ -2,13 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  
+ 
   font-size: x-large;
 }
 
 .Contact {
   width: max-content;
   margin: auto;
+  
   margin-bottom: 5%;
 }
 .Contact h2 {
@@ -99,6 +101,7 @@
   .Contact {
     width: 90%;
     align-items: center;
+    
   }
   .Contact textarea {
     width: 86vw;

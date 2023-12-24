@@ -18,6 +18,7 @@
   position: fixed;
   z-index: 100;
   display: block;
+  padding: 10%;
 }
 .button {
   display: none;
