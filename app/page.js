@@ -72,7 +72,7 @@ export default function Home() {
               <section className="item">
                 <div className="Intro">
                   <h1 className={Playfair.className} style={{ fontSize: "xx-large" }}>
-                    Complex Problems, Innovative Solutions part two
+                    Complex Problems, Innovative Solutions
                   </h1>
                   <p>
                     From start to finish, we ensure that your loft conversion meets your desired requirements. With a focus on exceptional service and a high-quality finish, we take pride in our workmanship. We offer a range of loft conversion options to suit any lifestyle and budget, recognizing that every home is unique. Whether you're looking for a simple conversion or a more complex project, our skilled team can bring your ideas to life. Our commitment to quality and customization guarantees a loft conversion or extension that is truly personalized for you. Contact us today to schedule a free initial consultation.

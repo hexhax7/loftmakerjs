@@ -17,7 +17,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 const Home = () => (
   <main className="sandbox">
     <section className="sandbox__carousel">
-      <h2 className={Oswald1.className}> EN 2 || project</h2>
+      <h2 className={Oswald1.className}> EN 2 Project</h2>
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>
   </main>
